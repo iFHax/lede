@@ -277,9 +277,10 @@ install_openwrt_series_luasrc() {
     return -1
   fi
   # download service translate file
-  curl --create-dirs -o ${lua_base}/i18n/acc.zh-cn.lmo ${download_base_url}/openwrt/po/zh-cn/acc.zh-cn.lmo
+  # Download the English translation file for ACC
+  curl --create-dirs -o ${lua_base}/i18n/acc.en.lmo ${download_base_url}/openwrt/po/en/acc.en.lmo
   if [ $? != "0" ]; then
-    echo "download acc.zh-cn.lmo failed"
+    echo "Download acc.en.lmo failed"
     return -1
   fi
   echo "download lua src success"
