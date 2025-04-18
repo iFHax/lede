@@ -1,5 +1,8 @@
 [ -e /tmp/.failsafe ] && export FAILSAFE=1
 
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
 [ -f /etc/banner ] && cat /etc/banner
 [ -n "$FAILSAFE" ] && cat /etc/banner.failsafe
 
