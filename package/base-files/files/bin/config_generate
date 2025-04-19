@@ -297,11 +297,12 @@ generate_static_system() {
 		delete system.@system[0]
 		add system system
 		set system.@system[-1].hostname='GG-WRT'
-                set system.@system[-1].timezone='+08'
+                set system.@system[-1].timezone='MYT-8'
                 set system.@system[-1].zonename='Asia/Kuala_Lumpur'
 		set system.@system[-1].ttylogin='0'
 		set system.@system[-1].log_size='64'
 		set system.@system[-1].urandom_seed='0'
+                set luci.main.lang='en'
 
 		delete system.ntp
 		set system.ntp='timeserver'
