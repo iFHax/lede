@@ -6,10 +6,10 @@ USE_PROCD=1
 
 validate_system_section() {
 	uci_load_validate system system "$1" "$2" \
-		'hostname:string:LEDE' \
+		'hostname:string:GG-WRT' \
 		'conloglevel:uinteger' \
 		'buffersize:uinteger' \
-		'timezone:string:UTC' \
+		'timezone:string:MYT-8' \
 		'zonename:string'
 }
 
