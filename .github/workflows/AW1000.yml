@@ -1,4 +1,4 @@
-name: Build AW1000 6.6
+name: Build AW1000 LEDE
 on:
   workflow_dispatch:
 
