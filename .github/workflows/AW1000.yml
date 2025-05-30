@@ -102,8 +102,8 @@ jobs:
       - name: Update and Install Feeds
         run: |
           ./scripts/feeds update -a
-          ./scripts/feeds install -a
           ./scripts/feeds install -a -f -p wwan
+          ./scripts/feeds install -a      
 
       - name: Prepare config file
         run: |
