@@ -1,6 +1,8 @@
-src-git wwan https://github.com/immortalwrt/wwan-packages.git;master
 src-git packages https://github.com/coolsnowwolf/packages
 src-git luci https://github.com/coolsnowwolf/luci.git;openwrt-24.10
 src-git routing https://github.com/coolsnowwolf/routing
 src-git telephony https://github.com/coolsnowwolf/telephony.git
-src-git custom_app https://github.com/intannajwa/custom-app.git
+src-git nas https://github.com/linkease/nas-packages.git;master
+src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main
+src-git modem_app https://github.com/intannajwa/custom-app.git
+src-git wwan https://github.com/immortalwrt/wwan-packages.git
