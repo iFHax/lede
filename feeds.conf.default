@@ -1,4 +1,4 @@
-src-git wwan https://github.com/immortalwrt/wwan-packages.git
+src-git modem https://github.com/FUjr/QModem.git;main
 src-git packages https://github.com/coolsnowwolf/packages
 src-git luci https://github.com/coolsnowwolf/luci.git;openwrt-24.10
 src-git routing https://github.com/coolsnowwolf/routing
